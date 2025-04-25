@@ -1,3 +1,24 @@
+import img1 from "./assets/images/1.webp";
+import img2 from "./assets/images/2.webp";
+import img3 from "./assets/images/3.webp";
+import img4 from "./assets/images/4.webp";
+import img5 from "./assets/images/5.webp";
+import img6 from "./assets/images/6.webp";
+import img7 from "./assets/images/7.webp";
+import img8 from "./assets/images/8.webp";
+import img9 from "./assets/images/9.webp";
+import img10 from "./assets/images/10.webp";
+import img11 from "./assets/images/11.webp";
+import img12 from "./assets/images/12.webp";
+import img13 from "./assets/images/13.webp";
+import img14 from "./assets/images/14.webp";
+import img15 from "./assets/images/15.webp";
+import img16 from "./assets/images/16.webp";
+import img17 from "./assets/images/17.webp";
+import img18 from "./assets/images/18.webp";
+import img19 from "./assets/images/19.webp";
+import img20 from "./assets/images/20.webp";
+
 export const products = [
   {
     id: 1,
@@ -6,7 +27,7 @@ export const products = [
     category: "Laptop",
     description:
       "13.3-inch laptop designed with precision-cut aluminum chassis and Intel Core i7 processor.",
-    image: "../src/assets/images/1.webp",
+    image: img1,
   },
   {
     id: 2,
@@ -15,7 +36,7 @@ export const products = [
     category: "Laptop",
     description:
       "Lightweight MacBook Air with Apple M2 chip, 8GB RAM, and 256GB SSD.",
-    image: "../src/assets/images/2.webp",
+    image: img2,
   },
   {
     id: 3,
@@ -24,7 +45,7 @@ export const products = [
     category: "Desktop",
     description:
       "Powerful desktop with AMD Ryzen 5 and NVIDIA GTX 1650 for gaming and productivity.",
-    image: "../src/assets/images/3.webp",
+    image: img3,
   },
   {
     id: 4,
@@ -33,7 +54,7 @@ export const products = [
     category: "Laptop",
     description:
       "Business-class ultrabook with 14-inch display and Intel Core i7 processor.",
-    image: "../src/assets/images/4.webp",
+    image: img4,
   },
   {
     id: 5,
@@ -42,7 +63,7 @@ export const products = [
     category: "Laptop",
     description:
       "Budget-friendly laptop with 15.6-inch Full HD display and AMD Ryzen 3 processor.",
-    image: "../src/assets/images/5.webp",
+    image: img5,
   },
   {
     id: 6,
@@ -51,7 +72,7 @@ export const products = [
     category: "Gaming Laptop",
     description:
       "Gaming laptop with Intel Core i5, 8GB RAM, 512GB SSD, and GTX 1650 Max-Q graphics.",
-    image: "../src/assets/images/6.webp",
+    image: img6,
   },
   {
     id: 7,
@@ -60,7 +81,7 @@ export const products = [
     category: "Desktop",
     description:
       "All-in-one desktop computer with Apple M1 chip and stunning Retina display.",
-    image: "../src/assets/images/7.webp",
+    image: img7,
   },
   {
     id: 8,
@@ -69,7 +90,7 @@ export const products = [
     category: "Laptop",
     description:
       "Premium gaming laptop with Intel Core i7, RTX 3060, and 144Hz display.",
-    image: "../src/assets/images/8.webp",
+    image: img8,
   },
   {
     id: 9,
@@ -78,7 +99,7 @@ export const products = [
     category: "Desktop",
     description:
       "Gaming desktop with AMD Ryzen 7, 16GB RAM, and GTX 1660 Ti graphics.",
-    image: "../src/assets/images/10.webp",
+    image: img10,
   },
   {
     id: 10,
@@ -87,7 +108,7 @@ export const products = [
     category: "Laptop",
     description:
       "2-in-1 Chromebook with detachable keyboard and touchscreen display.",
-    image: "../src/assets/images/9.webp",
+    image: img9,
   },
   {
     id: 11,
@@ -96,7 +117,7 @@ export const products = [
     category: "Desktop",
     description:
       "Compact desktop with Intel Core i5, perfect for home or office use.",
-    image: "../src/assets/images/11.webp",
+    image: img11,
   },
   {
     id: 12,
@@ -105,7 +126,7 @@ export const products = [
     category: "Gaming Laptop",
     description:
       "High-end gaming desktop with Intel Core i9 and RTX 3080 for ultimate performance.",
-    image: "../src/assets/images/12.webp",
+    image: img12,
   },
   {
     id: 13,
@@ -114,7 +135,7 @@ export const products = [
     category: "Laptop",
     description:
       "Slim and powerful laptop with Intel Core i7 and AMOLED display.",
-    image: "../src/assets/images/13.webp",
+    image: img13,
   },
   {
     id: 14,
@@ -123,7 +144,7 @@ export const products = [
     category: "Laptop",
     description:
       "Lightweight ultrabook with 14-inch display and long battery life.",
-    image: "../src/assets/images/14.webp",
+    image: img14,
   },
   {
     id: 15,
@@ -132,7 +153,7 @@ export const products = [
     category: "Desktop",
     description:
       "All-in-one PC designed for creatives with touchscreen and powerful specs.",
-    image: "../src/assets/images/15.webp",
+    image: img15,
   },
   {
     id: 16,
@@ -141,7 +162,7 @@ export const products = [
     category: "Gaming Laptop",
     description:
       "Ultra-slim gaming laptop with AMD Ryzen 9, RTX 4060, and 165Hz QHD display.",
-    image: "../src/assets/images/16.webp",
+    image: img16,
   },
   {
     id: 17,
@@ -150,7 +171,7 @@ export const products = [
     category: "Laptop",
     description:
       "Futuristic design, 16-inch QHD+ display, Intel Core i9 and RTX 4080 power combo.",
-    image: "../src/assets/images/17.webp",
+    image: img17,
   },
   {
     id: 18,
@@ -159,7 +180,7 @@ export const products = [
     category: "Gaming Laptop",
     description:
       "Blazing-fast gaming beast with Intel i9 14th Gen, RTX 4090, and RGB bling.",
-    image: "../src/assets/images/18.webp",
+    image: img18,
   },
   {
     id: 19,
@@ -168,7 +189,7 @@ export const products = [
     category: "Gaming Laptop",
     description:
       "Sleek aluminum build with mini-LED display, Intel i9, and RTX 4080 graphics.",
-    image: "../src/assets/images/19.webp",
+    image: img19,
   },
   {
     id: 20,
@@ -177,48 +198,43 @@ export const products = [
     category: "Gaming Laptop",
     description:
       "Desktop-class performance with Intel Core i9, RTX 4070, and 240Hz WQXGA display.",
-    image: "../src/assets/images/20.webp",
+    image: img20,
   },
 ];
-  
-export const categories = [
-  'All',
-  "Laptop",
-  "Gaming Laptop",
-  "Desktop",
-];
+
+export const categories = ["All", "Laptop", "Gaming Laptop", "Desktop"];
 
 export const slider = [
   {
     id: 1,
-    image: "../src/assets/images/10.webp",
+    image: img10,
   },
   {
     id: 2,
-    image: "../src/assets/images/11.webp",
+    image: img11,
   },
   {
     id: 3,
-    image: "../src/assets/images/15.webp",
+    image: img15,
   },
   {
     id: 4,
-    image: "../src/assets/images/13.webp",
+    image: img13,
   },
   {
     id: 5,
-    image: "../src/assets/images/15.webp",
+    image: img15,
   },
   {
     id: 6,
-    image: "../src/assets/images/5.webp",
+    image: img5,
   },
   {
     id: 7,
-    image: "../src/assets/images/4.webp",
+    image: img4,
   },
   {
     id: 8,
-    image: "../src/assets/images/1.webp",
+    image: img1,
   },
-]
+];
