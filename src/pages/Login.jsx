@@ -22,14 +22,14 @@ const Login = () => {
           </h2>
           <div className="flex justify-between items-center px-4 lg:px-6 lg:mx-16">
             <div className="flex flex-wrap mx-auto items-center justify-center">
-              <span className=" rounded-full mr-2 my-2 px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
+              <a href='https://www.google.com/' className=" rounded-full mr-2 my-2 px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
                 <img src={googleIcon} className="inline-block w-6 h-6 mr-2" />
                 Sign Up with Google
-              </span>
-              <span className=" rounded-full px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
+              </a>
+              <a href='https://github.com/' className=" rounded-full px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
                 <FaGithub className="text-white inline-block w-6 h-6 mr-2" />
                 Sign Up with Github
-              </span>
+              </a>
             </div>
           </div>
           <form className="px-8 lg:px-16 py-6 text-gray-200">
