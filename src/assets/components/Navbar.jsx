@@ -16,7 +16,6 @@ const Navbar = () => {
   const cartItems = useSelector((state) => state.cart.items);
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
-
   // User Toggle.
   const handleUser = () =>{
     setIsOpen(!isOpen);
@@ -25,7 +24,7 @@ const Navbar = () => {
   return (
     <header className='bg-white shadow-md '>
       <>
-        <div className="py-4 shadow-md px-8 lg:px-20">
+        <div className="py-4 shadow-md px-4 lg:px-20">
           <ul className="container flex mx-auto  flex-wrap justify-between md:flex-row px-4
           items-center relative">
             <div className='flex  gap-4'>

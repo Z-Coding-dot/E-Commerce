@@ -21,17 +21,16 @@ const Login = () => {
             Today!
           </h2>
           <div className="flex justify-between items-center px-4 lg:px-6 lg:mx-16">
-            <span className=" rounded-full px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
-              <img
-                src={googleIcon}
-                className="inline-block w-7 h-7 mr-2 bg-none "
-              />
-              Sign Up with Google
-            </span>
-            <span className=" rounded-full px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
-              <FaGithub className="text-white inline-block w-5 h-5 mr-2" /> Sign
-              Up with Github
-            </span>
+            <div className="flex flex-wrap mx-auto items-center justify-center">
+              <span className=" rounded-full mr-2 my-2 px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
+                <img src={googleIcon} className="inline-block w-6 h-6 mr-2" />
+                Sign Up with Google
+              </span>
+              <span className=" rounded-full px-2 py-2 border border-gray-300 text-sm text-gray-300 cursor-pointer">
+                <FaGithub className="text-white inline-block w-6 h-6 mr-2" />
+                Sign Up with Github
+              </span>
+            </div>
           </div>
           <form className="px-8 lg:px-16 py-6 text-gray-200">
             <label htmlFor="username" className="mb-2">
@@ -63,23 +62,20 @@ const Login = () => {
               <FaEye className="text-gray-400 cursor-pointer w-4 h-4 -ml-12" />
             </span>
           </form>
-          <div className="px-4 lg:px-16 flex justify-between items-center text-gray-200">
-            <div>
+          <div className="px-4 lg:px-16 text-gray-200 flex justify-between items-center">
+            <div className='hidden lg:flex'>
               <input
                 type="checkbox"
                 id="checkbox"
-                className=" w-4 h-4 mt-3 mx-2 rounded-full cursor-pointer"
+                className=" w-4 h-4 rounded-full cursor-pointer"
               />
-              <label
-                htmlFor="checkbox"
-                className="cursor-pointer"
-              >
+              <label htmlFor="checkbox" className="cursor-pointer mx-2 text-sm ">
                 I accept the terms & conditions
               </label>
             </div>
-            <button className="lg:px-8 lg:py-4 px-4 py-2 bg-purple-800 rounded-full text-white hover:bg-purple-900">
-              Sign Up
-            </button>
+              <button className=" lg:px-8 lg:py-4 px-4 py-2 w-full lg:w-1/4 bg-purple-800 rounded-full text-white hover:bg-purple-900">
+                Sign Up
+              </button>
           </div>
           <div className="flex my-5 justify-center items-center px-8 lg:px-16">
             <hr className="w-1/2 border-gray-400 mr-2" />
