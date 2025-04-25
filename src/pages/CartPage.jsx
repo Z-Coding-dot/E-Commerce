@@ -46,7 +46,7 @@ const CartPage = () => {
                   <img
                     src={item.image || "placeholder.jpg"} // Use a placeholder image if image is missing
                     alt={item.title || "Product Image"}
-                    className="w-40 h-40 rounded-lg object-cover"
+                    className="w-40 h-40 rounded-lg object-cover hidden lg:block"
                   />
                 </Link>
                 <div className="flex-1">
